@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import background from "./img/bg.jpg";
 import { default as Wheel } from "./components/Wheel/Wheel";
 
@@ -33,15 +32,13 @@ export default function App() {
 const styles = {
   app: {
     height: `100vh`,
-    margin: 0,
-    padding: 0,
     display: "flex",
     flexDirection: "column" as "column",
     fontFamily: "Lato",
     color: "white",
     textAlign: "center" as "center",
-    "background-image": `url(${background})`,
-    "background-size": "cover",
+    backgroundImage: `url(${background})`,
+    backgroundSize: "cover",
   },
   imgCredit: {
     fontSize: 12,
