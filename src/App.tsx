@@ -1,16 +1,10 @@
 import React from "react";
 import background from "./img/bg.jpg";
+import { default as choices } from "./choices";
+import { default as randomize } from "./utils/random";
 import { default as Wheel } from "./components/Wheel/Wheel";
 
 export default function App() {
-  const choices = [
-    "Ice Breaker",
-    "Michael Meyers",
-    "Indiana Jones",
-    "H3 Infection",
-    "Reach Infection",
-    "Shotty Ricochet",
-  ];
   return (
     <div style={styles.app}>
       <h1>What should we play?</h1>
